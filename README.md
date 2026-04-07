@@ -1,5 +1,6 @@
 
 **Platform:** https://based.bid
+
 **Docs:**    https://basedinc.gitbook.io/basedbid
 
 ---
