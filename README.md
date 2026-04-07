@@ -44,6 +44,9 @@ Our 3 core products are live across SOL & EVM chains (Ethereum, Base, BNB, MegaE
 - **Boards** — white-label launchpads for KOLs and agencies, earn % of fees forever
 - **Fee Builder** — programmable treasury with dynamic routing to unlimited recipients
 
+<img width="1440" height="896" alt="image" src="https://github.com/user-attachments/assets/271ed1d4-ac74-48ff-8d7f-e5e2e75e010f" />
+
+
 > See `HOWITWORKS.md` for full product breakdowns.
 
 ---
