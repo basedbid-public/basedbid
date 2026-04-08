@@ -1,4 +1,15 @@
-<img width="601" height="331" alt="vertical version dark" src="https://github.com/user-attachments/assets/62c375eb-0ca0-46df-bf90-0648e47506a0" />
+<picture>
+  <source 
+    srcset="https://github.com/user-attachments/assets/62c375eb-0ca0-46df-bf90-0648e47506a0" 
+    media="(prefers-color-scheme: dark)" 
+  />
+  <img 
+    src="https://github.com/user-attachments/assets/39a3db10-e5c2-48f1-b734-fb1caf8f6158" 
+    alt="Based Bid logo" 
+    width="601" 
+    height="331"
+  />
+</picture>
 
 [![X (Twitter)](https://img.shields.io/twitter/follow/ThebasedInc?style=flat&logo=x&label=follow&color=000000)](https://x.com/ThebasedInc)
 [![Telegram](https://img.shields.io/badge/Telegram-join-26A5E4?style=flat&logo=telegram)](https://t.me/ThebasedInc)
