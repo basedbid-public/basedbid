@@ -1,6 +1,6 @@
-**Traction**
+# **Traction**
 
-**Development progress**
+## **Development progress**
 
 Tokens, pools and boards are live and stable across 5 chains.
 
@@ -18,7 +18,9 @@ Flash Token launch, zero upfront capital. 13x returns for early investors, sitti
 
 Based.bid completed buybacks using platform fees at the $50k and $100k market cap milestones as agreed, demonstrating the buyback support mechanism live.
 
-**Pipeline**
+-------
+
+## **Pipeline**
 
 A number of devs we have connected with or who found us through social are waiting on the Fee Builder update Thursday April 9th before they commit to launching. That is when we push hard on onboarding.
 
@@ -34,7 +36,9 @@ A number of devs we have connected with or who found us through social are waiti
     DeFiMentor: active lounge owner, board activation planned
     Delusional Bulls: AI agent platform integration for automated launches using white-label board tech
 
-**Initial numbers**
+-------
+
+## **Initial numbers**
 
 Live tokens: 1 ($MIDTERMS, 13x) Boards created: 8 Chains live: 5 (ETH, Base, BNB, Solana, MegaETH) Committed partners: 6+ Projects in active discussion: multiple devs and potential board owners, targeting post-Thursday
 
