@@ -38,6 +38,13 @@ We built the first platform where creators earn **1-10% of all trading volume** 
 
 Our 3 core products are live across SOL & EVM chains (Ethereum, Base, BNB, MegaETH) and Solana. Projects can launch today, earn fees today, and KOLs can spin up a branded Board in minutes.
 
+### Products
+
+- **Pools** — bonding curve launches with lifetime fee collection
+- **Flash Tokens** — instant DEX deployment using virtual liquidity, zero capital required
+- **Boards** — white-label launchpads for KOLs and agencies, earn % of fees forever
+- **Fee Builder** — programmable treasury with dynamic routing to unlimited recipients
+
 ### Chains
  
 ✅ **Ethereum** &nbsp;|&nbsp; ✅ **Base** &nbsp;|&nbsp; ✅ **BNB Chain** &nbsp;|&nbsp; ✅ **MegaETH** &nbsp;|&nbsp; ✅ **Solana**
@@ -48,15 +55,9 @@ Our 3 core products are live across SOL & EVM chains (Ethereum, Base, BNB, MegaE
 
 ## Architecture
 
-### Products
-
-- **Pools** — bonding curve launches with lifetime fee collection
-- **Flash Tokens** — instant DEX deployment using virtual liquidity, zero capital required
-- **Boards** — white-label launchpads for KOLs and agencies, earn % of fees forever
-- **Fee Builder** — programmable treasury with dynamic routing to unlimited recipients
+Fee builder:
 
 <img width="1440" height="896" alt="image" src="https://github.com/user-attachments/assets/271ed1d4-ac74-48ff-8d7f-e5e2e75e010f" />
-
 
 > See `HOWITWORKS.md` for full product breakdowns.
 
