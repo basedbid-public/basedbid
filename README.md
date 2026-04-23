@@ -19,7 +19,7 @@
 
 ## The Problem
 
-Creators launch tokens, graduate to DEXs, earn $0 forever.
+Creators launch tokens, graduate to DEXs, The low fees are unsustainable or non-existent
 
 > $4B monthly volume on Pump.fun alone — and creators see around 0.05% of it post-launch.
 
