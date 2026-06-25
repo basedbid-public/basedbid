@@ -16,6 +16,8 @@
 
 **Colosseum Frontier Hackathon 2026 submission**
 
+**BNB Ecosystem:** basedbid supports BNB Chain, also known as BNB Smart Chain or BSC, with native BNB fee routing for token launches, Pools, Flash Tokens, and Boards.
+
 ---
 
 ## Summary
