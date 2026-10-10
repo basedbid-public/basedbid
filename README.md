@@ -1,196 +1,101 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/1cded765-3fb0-4599-af25-6396b4434319" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/bd8ca2a7-8ee8-4970-8150-8b074b7bb751" />
-  <img src="https://github.com/user-attachments/assets/1cded765-3fb0-4599-af25-6396b4434319" alt="basedbid logo" width="601" height="331" />
+<img width="512" height="512" alt="emerald basedbid logo with BG container2" src="https://github.com/user-attachments/assets/6deb4b52-c8af-4200-8e8d-61d2bdc96ea5" />
 </picture>
 
-[![X (Twitter)](https://img.shields.io/twitter/follow/basedbidx?style=flat&logo=x&label=follow&color=000000)](https://x.com/basedbidx)
-[![Telegram](https://img.shields.io/badge/Telegram-join-26A5E4?style=flat&logo=telegram)](https://t.me/ThebasedInc)
+[![X(Twitter)](https://img.shields.io/twitter/follow/basedbidx?style=flat&logo=x&label=follow&color=000000)](https://x.com/basedbidx)
 [![Website](https://img.shields.io/badge/based.bid-live-00ff00?style=flat)](https://based.bid)
 [![Docs](https://img.shields.io/badge/docs-gitbook-blue?style=flat)](https://basedinc.gitbook.io/basedbid)
 [![OpenBid SDK](https://img.shields.io/badge/OpenBid-SDK-2ecc71?style=flat&logo=github)](https://github.com/basedbid-public/openbid)
 
 # basedbid
 
-> Programmable token launch infrastructure for instant launches, Liquidity Bonding Pools, and creator-owned Boards.
+### Simple launches. Powerful economies.
 
-**Colosseum Frontier Hackathon 2026 submission**
+**Colosseum Crypto World's Fair 2026 submission**
 
-**BNB Ecosystem:** basedbid supports BNB Chain, also known as BNB Smart Chain or BSC, with native BNB fee routing for token launches, Pools, Flash Tokens, and Boards.
+basedbid powers token launches and branded launchpads across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
 
----
+Its **Fee Builder** lets creators configure trading fees and choose how revenue supports project funding, liquidity, treasury, buybacks, marketing and holder rewards. **Rewards Baskets** distribute supported tokens, tokenized stocks and ETFs to eligible holders, with **no sales of the launched token needed to fund distributions**.
 
-## Summary
+Fee routes and basket settings can change without redeploying the token. Partners use the same infrastructure under their own brand instead of rebuilding the contracts and backend.
 
-basedbid lets builders, creators, KOLs, communities, and incubators launch tokens or Liquidity Bonding Pools while defining how trading fees are routed across creators, communities, KOLs, rewards, buybacks, marketing, liquidity, and treasury destinations.
+## Why we built it
 
-Launches should not be one-time extraction events. They should become programmable economic infrastructure for the people who create, distribute, and support them.
+Projects generate trading activity, but often have limited control over the revenue it creates. Some reward models sell project tokens to fund payouts, creating selling pressure. Fixed launch settings can also become a constraint as a project grows.
 
-boards, pools, token launches, and OpenBid support are live on mainnet.
+Teams building launchpads spend months on contracts, backend systems, integrations, testing and maintenance, with no guarantee that the finished technology will meet their needs.
 
----
+basedbid gives creators configurable economics and gives partners reusable infrastructure.
 
-## The problem
+## Launch your way
 
-Token launch infrastructure is structurally misaligned.
+- **Flash Tokens:** Launch directly into DEX trading using virtual liquidity.
+- **Liquidity Bonding Pools:** Trade on basedbid before graduating to a supported DEX under configured graduation conditions.
+- **Pre-Launch:** Set a time limit, minimum and maximum funding goals, and the share of funds raised allocated to the creator. Tokens trade on basedbid before DEX graduation.
 
-Creators launch tokens, graduate to DEXs, and are often left with little or no sustainable post-launch revenue.
+**Standard** offers a quick launch with minimum settings. **Pro** exposes deeper configuration, including Fee Builder and Rewards Basket options where supported. A Standard quick launch is distinct from a configured Fee Builder launch.
 
-Common problems include:
+## Put trading fees to work
 
-- platforms capturing most of the economics;
-- creators lacking recurring revenue;
-- KOLs being paid in tokens and forced to sell;
-- tax-token models accumulating supply and creating batch-selling pressure;
-- static launch contracts that are hard to evolve after deployment.
+The **Fee Builder** routes trading revenue to creator income, treasury, liquidity, buybacks, marketing, holder rewards and custom wallets.
 
-basedbid is designed to address these problems through programmable launch infrastructure, configurable fee routing, and Board-based distribution ownership.
+Approved routes and receiving wallets can be updated after launch without redeploying the token.
 
----
+The **Rewards Basket** lets creators choose supported assets, set allocations and configure holder eligibility and payout settings. Distributions can rotate through individual assets or pay across the basket simultaneously.
 
-## What basedbid provides
+Trading fees fund distributions, not sales of the launched token.
 
-### Pools
+*Launch types, DEXs, quote assets, reward assets and settings vary by network.*
 
-Liquidity Bonding Pools with configurable launch parameters, custom market caps, fee routing, and project-controlled economics.
+## Build on basedbid
 
-### Flash Tokens
+**Boards** provide branded launch environments for applications, communities and launchpad operators.
 
-Instant token launches using virtual liquidity, designed to reduce capital requirements and time-to-market.
+**Openbid, API, SDK and ABI** provide integration options for offering supported launch and fee-routing capabilities within an existing product.
 
-### Boards
+Partners earn from launches under their brand according to the configured arrangements. basedbid earns a share of trading fees, including from launches through partner platforms.
 
-White-label launch environments for KOLs, communities, agencies, incubators, and builder groups.
+[Explore the open-source Openbid SDK](https://github.com/basedbid-public/openbid)
 
-A Board can define launch rules, branding, permissions, fee defaults, market cap parameters, DEX preferences, and revenue structures.
+## Traction and release status
 
-### Fee Builder
+The existing platform is live on mainnet. Its beta has supported **millions in trading volume, hundreds of launches and tens of thousands of dollars in project fees** across supported networks.
 
-Programmable fee routing across multiple recipients, including creators, KOLs, marketing wallets, rewards, buybacks, liquidity, and treasuries.
+The full release brings together a redesigned interface, easier configuration, expanded Rewards Basket options and easier access to our infrastructure.
 
----
+**As of 9 October 2026:** The updated Solana deployment has moved to mainnet for final testing. It will move to the primary domain after the final checks are complete. The existing live platform and the release being tested are distinct deployments.
 
-## Fee Builder flow
+The team has worked together in crypto launch infrastructure for around five years and has self-funded development for over 15 months.
 
-Fee Builder lets projects define how trading fees are routed across multiple recipients such as creators, KOLs, rewards, marketing, buybacks, liquidity, and treasuries.
+**Our goal is to become the default choice for launching a token or building a launchpad.**
 
-<p align="center">
-  <img width="1440" height="896" alt="basedbid Fee Builder flow" src="https://github.com/user-attachments/assets/271ed1d4-ac74-48ff-8d7f-e5e2e75e010f" />
-</p>
+## Start here
 
-Instead of treating launch fees as a single protocol-owned revenue stream, basedbid is designed around programmable fee allocation. Multiple stakeholders can earn from the same launch according to the rules configured by the creator, Board, or future governance structure.
+- [Live platform](https://www.based.bid/)
+- [Launch a token](https://www.based.bid/create)
+- [Product guides](https://basedinc.gitbook.io/basedbid)
+- [Openbid SDK](https://github.com/basedbid-public/openbid)
+- [Pitch deck](https://www.based.bid/deck)
+- [Contact the team](https://t.me/BasedBidMichael)
 
----
+## Submission materials
 
-## Why Boards matter
+| Document | Purpose |
+| --- | --- |
+| [Submission](./SUBMISSION.md) | Submission overview |
+| [How it works](./HOWITWORKS.md) | Product mechanics |
+| [Team](./WHY_THIS_TEAM_CAN_WIN.md) | Team background |
+| [Traction](./traction.md) | Adoption and progress |
+| [Judge review path](./JUDGING.md) | Suggested review order |
+| [Documentation](./docs/) | Architecture and product details |
+| [Demo](./demo/) | Product walkthrough materials |
+| [Metrics](./metrics/) | Supporting metrics |
+| [Weekly updates](./Colosseum-Weekly-Updates/) | Build updates |
 
-Boards turn distribution into infrastructure.
+## Public code and production boundary
 
-Instead of a KOL, community, or agency promoting launches for one-time payments, they can own a programmable launch environment and earn recurring on-chain revenue from projects launched through that Board.
+This repository contains public submission materials and product documentation. It is **not the complete production codebase**.
 
-This creates a new model for:
+The public TypeScript SDK is maintained in [Openbid](https://github.com/basedbid-public/openbid). Full production contracts, private backend services, deployment infrastructure and internal tooling are not included here.
 
-- KOLs;
-- incubators;
-- launch agencies;
-- communities;
-- DAOs;
-- builder groups.
-
----
-
-## Open-source technical companion
-
-The open-source SDK lives in a separate repository for cleanliness:
-
-**OpenBid SDK:** https://github.com/basedbid-public/openbid
-
-OpenBid is the public TypeScript SDK and developer tooling for interacting with basedbid.
-
-This repository is the public Colosseum submission hub. OpenBid is the fully open-source technical companion.
-
----
-
-## Repository map
-
-| Path | Purpose |
-|---|---|
-| [`SUBMISSION.md`](./SUBMISSION.md) | Colosseum submission summary |
-| [`WHY_THIS_TEAM_CAN_WIN.md`](./WHY_THIS_TEAM_CAN_WIN.md) | Team background, GemPad execution history, and why we can compete |
-| [`JUDGING.md`](./JUDGING.md) | Suggested judge review path |
-| [`DISCLAIMER.md`](./DISCLAIMER.md) | Public repo boundary and verification notice |
-| [`HOWITWORKS.md`](./HOWITWORKS.md) | Product mechanics and feature explanation |
-| [`docs/`](./docs) | Deeper documentation and architecture notes |
-| [`demo/`](./demo) | Demo materials |
-| [`metrics/`](./metrics) | Metrics and supporting data |
-| [`partnerships/`](./partnerships) | Partnership notes |
-| [`traction.md`](./traction.md) | Traction and progress |
-| [`Colosseum-Weekly-Updates/`](./Colosseum-Weekly-Updates) | Weekly hackathon build updates |
-
----
-
-## What is public here
-
-This repository includes:
-
-- product documentation;
-- submission materials;
-- demo information;
-- traction summaries;
-- partnership notes;
-- weekly updates;
-- architecture explanations;
-- links to the open-source SDK.
-
----
-
-## What is private
-
-The complete production basedbid implementation is live but private, and is not included in this repository.
-
-This repository does not include:
-
-- full production smart contracts;
-- private backend services;
-- deployment infrastructure;
-- private admin tooling;
-- complete production ABIs;
-- security-sensitive internal routing logic.
-
-For more detail, see:
-
-- [`DISCLAIMER.md`](./DISCLAIMER.md)
-- [`docs/private-code-boundary.md`](./docs/private-code-boundary.md)
-
----
-
-## Suggested judge review path
-
-1. Read [`SUBMISSION.md`](./SUBMISSION.md)
-2. Read [`WHY_THIS_TEAM_CAN_WIN.md`](./WHY_THIS_TEAM_CAN_WIN.md)
-3. Read [`HOWITWORKS.md`](./HOWITWORKS.md)
-4. Read [`JUDGING.md`](./JUDGING.md)
-5. Review [`docs/`](./docs)
-6. Review [`demo/`](./demo)
-7. Review [`traction.md`](./traction.md)
-8. Review the open-source [`OpenBid SDK`](https://github.com/basedbid-public/openbid)
-
----
-
-## Current focus
-
-basedbid is focused on making token launch infrastructure more sustainable, programmable, and creator-aligned.
-
-The core thesis:
-
-> the protocol does not eat first. the builder eats first.
-
----
-
-## Status
-
-This repository is maintained as the public Colosseum Frontier Hackathon 2026 submission hub for basedbid.
-
-boards, pools, token launches, and OpenBid support are live on mainnet.
-
-The full production basedbid implementation is private and is not fully represented in this repository. The open-source SDK is maintained separately in the OpenBid repository.
+See [DISCLAIMER.md](./DISCLAIMER.md) and [the private-code boundary](./docs/private-code-boundary.md) for details.
