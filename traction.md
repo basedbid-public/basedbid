@@ -1,267 +1,78 @@
 # Traction
 
-basedbid is live token launch infrastructure, not a concept repo.
+basedbid's existing platform is live on mainnet, with usage from direct token launches, branded Boards and infrastructure integrations.
 
-The polished version of basedbid went live on mainnet in the first week of May 2026. boards, pools, token launches, and OpenBid support are live on mainnet.
+**Reporting snapshot: 10 October 2026.** Figures below are rounded cumulative platform totals across supported networks, not monthly figures or Solana-only metrics.
 
-Token launches have begun. Boards are being created by KOLs, marketing agencies, and known high-trust developers. Multiple companies are actively switching from competitor launch infrastructure to basedbid through our API and OpenBid SDK.
+## Usage at a glance
 
-The public repository exists as the Colosseum Frontier Hackathon 2026 submission hub, while the full production basedbid implementation is live but private and is not fully represented in this repository.
-
-## Traction at a glance
-
-| Area | Status |
+| Metric | Activity |
 | --- | --- |
-| Mainnet product | Polished version live as of first week of May 2026 |
-| Boards | Live and being created |
-| Pools | Live |
-| Token launches | Live and underway |
-| Fee Builder | Live |
-| OpenBid SDK | Public open-source technical companion |
-| API / SDK integrations | Companies actively integrating |
-| Board owners | KOLs, agencies, and trusted developers onboarding |
-| Launch partners | First wave secured and preparing launches |
-| Competitor migration | Companies switching to basedbid infrastructure |
-| Revenue model | basedbid receives a share of fees from tokens deployed through the infrastructure |
-| Blockchain ecosystem partnerships | Active conversations and integration planning |
+| Trading volume | Millions in tracked onchain trading volume |
+| Token launches | Hundreds of launches |
+| Project fees | Tens of thousands of dollars generated for projects |
+| Branded Boards | Live branded launch environments |
+| Public developer tooling | Open-source Openbid SDK |
 
-## Why this matters
+**Project fees are not basedbid's own revenue.** basedbid earns a share of trading fees under the applicable configuration. This page does not present a verified platform-revenue total.
 
-basedbid has moved from product readiness into live mainnet distribution.
+These figures describe the existing platform's usage. They should not be presented as usage generated exclusively during Crypto World's Fair or by features still in final testing.
 
-The first wave of clients and partners is already secured. These teams are preparing to launch tokens, create Boards, or integrate basedbid infrastructure into their own workflows.
+## Infrastructure adoption
 
-The traction is not only from direct launches. It also comes from partners who bring their own distribution, users, and paying clients into basedbid.
+We have **13+ agreements to integrate our backend API**, with partners at different stages of onboarding and implementation.
 
-The product is designed to support:
+Boards provide another distribution channel, allowing communities and platforms to offer launches under their own brand.
 
-- builders launching tokens
-- communities creating launch environments
-- KOLs and agencies owning Boards
-- high-trust developers creating launch surfaces
-- companies integrating basedbid through API or OpenBid SDK
-- incubators launching portfolio projects
-- blockchain ecosystems supporting more sustainable token launches
+## Trading-platform integrations
 
-Every Board, API integration, SDK integration, and partner launch surface adds distribution. When those partners bring real paying clients, basedbid participates in the fee stream for each token deployed through the infrastructure.
+These integrations are separate from backend infrastructure customers.
 
-## First wave of secured clients
+| Platform | Status |
+| --- | --- |
+| GMGN | basedbid tokens integrated |
+| Axiom | basedbid tokens integrated |
+| Fomo | Integration completed for past and future basedbid tokens |
 
-Following the polished mainnet release in the first week of May 2026, basedbid is now working with its first wave of secured clients and partners.
+Integration helps discovery and trading access. It does not, by itself, establish new token launches, user growth or a guaranteed increase in volume.
 
-This first wave includes teams preparing to:
+## Recent ecosystem developments
 
-- launch tokens
-- create Boards
-- deploy pools
-- integrate basedbid infrastructure
-- use programmable fee routing
-- build launch surfaces on top of basedbid
-- migrate from competitor infrastructure
-- use OpenBid-powered launch flows
+During the week of 5-9 October 2026:
 
-These clients are already secured and are moving through launch preparation, onboarding, or integration planning.
+| Organisation | Development |
+| --- | --- |
+| PancakeSwap | Whitelisted basedbid and reposted its announcement |
+| Fomo | Completed integration for past and future tokens |
+| Meteora | Reviewing and advising on the unreleased Solana technology |
+| Binance Wallet | Posted about the basedbid integration on X |
 
-## Token launches underway
+We are also whitelisted by Uniswap and have support from the Solana Foundation and Superteam Ireland.
 
-Token launches have begun on basedbid.
+## Full-release progress
 
-This is an important traction milestone because it moves basedbid from infrastructure readiness into active launch usage.
+The existing platform remains live on mainnet.
 
-Current launch traction includes:
+**As of 9 October 2026**, the updated Solana deployment had moved to mainnet for final testing. It will move to the primary domain after the final checks are complete.
 
-- token launches underway
-- additional confirmed tokens preparing to launch
-- Board-linked launch preparation
-- pool deployment interest
-- client launch pipelines forming around partners and integrators
+The release brings a redesigned interface, easier configuration, expanded Rewards Basket functionality and easier access to the infrastructure for partners.
 
-Each token deployed through basedbid can contribute protocol-level fee revenue while giving creators, Boards, and launch partners programmable fee participation.
+## Evidence and verification
 
-## Boards being created
+- [Live platform](https://www.based.bid/): Inspect launched tokens, Boards and token-detail pages.
+- [DeFiLlama](https://defillama.com/protocol/basedbid): External protocol analytics; use it only for metrics actually displayed there.
+- [Openbid SDK](https://github.com/basedbid-public/openbid): Public developer tooling and integration surface.
+- [Official X account](https://x.com/basedbidx): Announcements and public updates.
+- [Weekly updates](./Colosseum-Weekly-Updates/): Recorded project progress.
+- [Demo materials](./demo/): Product walkthrough materials.
 
-Boards are one of basedbid’s strongest traction signals because they turn distribution partners into launch infrastructure owners.
+The links above provide access to our live platform, public developer tooling and announcements.
 
-Boards are being created by:
+## What the traction demonstrates
 
-- KOLs
-- marketing agencies
-- known high-trust developers
-- community operators
-- launch partners
-- builder groups
+- **Launch usage:** Projects have deployed tokens through basedbid.
+- **Economic activity:** Trading has generated fees for projects.
+- **Infrastructure demand:** Partners are integrating the backend or agreeing to do so.
+- **Distribution access:** Trading-platform integrations support discovery beyond basedbid's own interface.
 
-Board traction includes:
-
-- Boards created on mainnet
-- additional Boards in setup or onboarding
-- community-led Board use cases
-- KOL, agency, incubator, DAO, and builder Board use cases
-- launch partners planning to route future launches through Boards
-
-Boards give partners recurring launch infrastructure instead of one-off promotion, advisory, or campaign economics.
-
-A Board owner can create a dedicated launch environment, curate launches, bring in paying clients, and participate in the economics of projects launched through that environment.
-
-## Competitor migration
-
-Multiple companies are actively switching from competitor launch infrastructure to basedbid.
-
-This is happening through:
-
-- direct API integration
-- OpenBid SDK integration
-- custom launch flows
-- Board-based launch environments
-- partner-owned launch surfaces
-
-The reason this matters is simple: these companies already have distribution and paying clients.
-
-When they switch to basedbid infrastructure, they bring launch demand with them. Each client token deployed through those integrations adds volume potential, fee participation, and proof that basedbid is becoming infrastructure rather than only a destination website.
-
-## API and OpenBid integration traction
-
-basedbid is being positioned as infrastructure that other products, agents, and launch surfaces can build on.
-
-Following the polished mainnet release, API, SDK, and infrastructure integrations are actively being prepared with secured partners.
-
-Integration work includes:
-
-- OpenBid SDK as the public developer entry point
-- API-driven launch flows
-- agent-facing launch actions
-- Board creation flows
-- Flash Token deployment flows
-- partner and ecosystem integrations
-- external launch surfaces built on top of basedbid
-- companies switching from competitor infrastructure
-- launch partners routing client deployments through basedbid
-
-This allows basedbid to grow beyond a single front end and become a programmable launch layer for external products, communities, chains, and autonomous agents.
-
-## OpenBid SDK traction
-
-OpenBid is the public open-source SDK and technical companion for basedbid.
-
-The SDK expands basedbid from a launch interface into programmable infrastructure for agents, builders, and partner applications.
-
-Current OpenBid traction includes:
-
-- public open-source SDK repository
-- SDK direction for core basedbid launch actions
-- API-driven launch infrastructure path
-- agent-facing integration direction
-- Board creation flows
-- Flash Token deployment flows
-- adapter work for external agent and automation frameworks
-- partner companies preparing to use SDK-powered launch flows
-
-The SDK strategy includes `@basedbid/openbid` as the npm package direction and prioritizes integrations that make basedbid accessible to external builders, autonomous agents, and partner applications.
-
-## OpenBid integration pipeline
-
-OpenBid is designed to make basedbid available outside the main product interface.
-
-Integration priorities include:
-
-- AgentKit
-- OpenClaw
-- GOAT
-- agent-owned Boards
-- programmatic Flash Token deployment
-- programmatic Board creation
-- partner app integrations
-- launch automation flows
-
-The goal is for developers and agents to interact with basedbid as infrastructure, not just as a website.
-
-## Fee Builder traction
-
-Fee Builder is a core product differentiator for basedbid.
-
-Instead of treating token launches as one-time events, Fee Builder lets creators define who earns from trading activity and how those fees are routed.
-
-Fee Builder supports launch structures such as:
-
-- creator revenue
-- Board owner revenue
-- KOL or agency revenue
-- developer revenue
-- integrator revenue
-- buybacks
-- liquidity routing
-- rewards
-- marketing wallets
-- DAO or treasury allocations
-- custom wallet routing
-
-This matters because launch partners can design sustainable economics from the start, instead of relying only on token allocations or one-time promotion fees.
-
-For basedbid, this also creates an infrastructure revenue model. Partners can bring real paying clients, deploy tokens through basedbid, and share in the economics while basedbid receives its protocol share of fees.
-
-## Blockchain and ecosystem partnerships
-
-basedbid is pursuing ecosystem-level distribution rather than relying only on direct user acquisition.
-
-Current ecosystem traction includes:
-
-- blockchain ecosystem conversations
-- launch partner discussions
-- developer ecosystem integrations
-- Board partner onboarding
-- SDK integration outreach
-- chain-specific launch opportunities
-- companies evaluating basedbid as replacement infrastructure for competitor launch systems
-
-The strategy is to make basedbid useful to chains, communities, and developer ecosystems that need more token launches, better launch tooling, and sustainable post-launch revenue mechanics.
-
-## Partner and community traction
-
-basedbid has traction across multiple partner categories:
-
-- builders preparing to launch tokens
-- communities preparing to launch Boards
-- KOLs and agencies creating Board infrastructure
-- known high-trust developers building on basedbid
-- incubators and launch partners evaluating recurring launch infrastructure
-- ecosystem partners exploring developer and launch tooling
-- SDK and integration partners evaluating OpenBid
-- companies switching from competitor infrastructure
-- partners with real paying clients preparing to deploy through basedbid
-
-This partner mix matters because basedbid’s model compounds through distribution.
-
-Each new Board can attract more launches. Each launch can generate more product proof. Each SDK or API integration can create a new surface area for future launches. Each partner with paying clients can bring immediate deployment demand into the system.
-
-## Traction flywheel
-
-basedbid’s traction compounds across four connected layers.
-
-1. **Launches**
-
-   More token and pool launches create more visible product usage.
-
-2. **Boards**
-
-   More Boards create more distribution surfaces and partner-owned launch environments.
-
-3. **Integrations**
-
-   More API and OpenBid integrations allow companies, agents, apps, and external builders to launch through basedbid programmatically.
-
-4. **Revenue participation**
-
-   Partners bring paying clients. Those clients deploy tokens. Fee Builder routes economics across creators, Boards, integrators, and basedbid.
-
-The flywheel is:
-
-```text
-Partner creates Board or integration
-→ partner brings paying clients
-→ clients launch tokens through basedbid
-→ launches generate fee revenue
-→ Board owner or integrator earns from deployed tokens
-→ basedbid receives its protocol share
-→ partner has incentive to bring more launches
-→ OpenBid and API access make the system easier to integrate elsewhere
-→ more launch surfaces create more launches
+These are separate signals. A planned integration, completed integration, active customer and revenue-generating customer should not be counted as interchangeable milestones.
