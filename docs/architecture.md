@@ -1,136 +1,75 @@
-# Architecture
+# Architecture overview
 
-basedbid is structured as programmable token launch infrastructure.
+basedbid provides token-launch and fee-routing infrastructure across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
 
-The system is designed around five core layers:
+This is a product-level overview, not the complete production implementation. Contracts, DEX integrations and available settings differ by network.
 
-1. Interface layer
-2. Board layer
-3. Launch layer
-4. Fee Builder layer
-5. Governance layer
+## Access and partner integration
 
----
+Creators use the basedbid interface directly. Communities and platforms offer branded launch environments through **Boards**, while developers integrate supported capabilities through **Openbid, API, SDK and ABI**.
 
-## 1. Interface layer
+Partners use the underlying infrastructure rather than rebuilding the launch contracts and backend.
 
-The interface layer is how users and developers interact with basedbid.
+## Launch infrastructure
 
-This can include:
+Creators choose **Standard or Pro** before selecting their launch type.
 
-- the basedbid web app;
-- partner integrations;
-- developer tooling;
-- the OpenBid SDK;
-- future APIs or automation interfaces.
+- **Standard:** Quick Flash Token launches with minimal configuration.
+- **Pro:** The available launch types and advanced settings, including Fee Builder and Rewards Basket options where supported.
 
-The goal of this layer is to make token launches, Board creation, pool setup, and fee configuration accessible without requiring every user to interact directly with lower-level infrastructure.
+The launch types are:
 
----
+- **Flash Tokens:** Launch directly into DEX trading using virtual liquidity.
+- **LBP:** Trade on basedbid until the target market cap is reached, then graduate to a supported DEX.
+- **Pre-Launch:** Trade on basedbid before DEX graduation, with a configured time limit, minimum and maximum funding goals, and creator allocation from funds raised.
 
-## 2. Board layer
+Boards add branding and partner fee arrangements to launches using the same infrastructure.
 
-The Board layer defines programmable launch environments.
+## Fee Builder
 
-A Board can represent a KOL, community, incubator, launch agency, DAO, or builder group.
+The Fee Builder configures how trading revenue supports creator income, treasury, liquidity, buybacks, marketing, holder rewards and custom wallets.
 
-Boards can define:
+Fee routes and receiving wallets can change after launch without redeploying the token, subject to the applicable permissions and supported settings.
 
-- launch permissions;
-- allowed launch types;
-- branding;
-- default fee behavior;
-- market cap preferences;
-- DEX preferences;
-- publishing rules;
-- governance settings.
+Fee Builder distributions do not require selling the launched token.
 
-This layer turns distribution into infrastructure.
+[Read the Fee Builder overview](./fee-builder.md)
 
----
+## Rewards Basket
 
-## 3. Launch layer
+Creators select supported reward assets, configure allocations and set holder eligibility and payout settings.
 
-The launch layer supports the core launch products.
+Baskets can include supported tokens, tokenized stocks and ETFs. Payouts can rotate through individual assets or distribute across the basket simultaneously.
 
-### Pools
+Trading fees fund the rewards without selling the launched token. Basket assets and allocations can evolve after launch without redeploying.
 
-Pools are Liquidity Bonding Pools with configurable launch parameters and project-controlled economics.
+*Assets and functionality vary by network.*
 
-### Flash Tokens
+## Network-specific implementation
 
-Flash Tokens are instant token launches designed to reduce capital requirements and time-to-market.
+The shared product experience is backed by network-specific contracts and DEX integrations.
 
-Both launch types can be connected to Boards and Fee Builder logic.
+On Solana, basedbid uses custom contracts with **Meteora DAMM v2**, not Meteora DBC. This is one implementation within the wider multichain system.
 
----
+A supported feature on one network should not be assumed to exist on every other network.
 
-## 4. Fee Builder layer
+## Example launch flow
 
-The Fee Builder layer defines how trading fees are allocated.
+1. Select Pro, then Flash Token.
+2. Choose the network and enter token details.
+3. Configure the supported DEX and quote asset.
+4. Set Fee Builder routes and allocations.
+5. Configure a Rewards Basket if using holder rewards.
+6. Review, confirm in the wallet and launch.
 
-Fees can be routed across categories such as:
+After launch, authorised users can update supported fee routes and basket settings without redeploying the token.
 
-- creator revenue;
-- KOL incentives;
-- rewards;
-- marketing;
-- buybacks;
-- liquidity;
-- treasuries;
-- custom wallets.
-
-This makes launch economics programmable instead of fixed to a single destination.
-
----
-
-## 5. Governance layer
-
-The governance layer defines who can update economic parameters over time.
-
-A launch may begin with creator-controlled settings and later transition to:
-
-- multisig control;
-- DAO control;
-- token-holder governance;
-- community takeover structures.
-
-This is designed to let projects evolve without needing to relaunch their entire token economy.
-
----
-
-## System flow
-
-1. A creator, KOL, community, or partner enters through the interface layer.
-2. They create or select a Board.
-3. They launch a Pool or Flash Token.
-4. Fee Builder rules define who earns from trading activity.
-5. Governance controls whether and how the configuration can evolve.
-6. The launch continues operating under the configured rules.
-
----
+[Explore the complete product flow](../HOWITWORKS.md)
 
 ## Public and private components
 
-| Component | Public in this repo? | Notes |
-|---|---:|---|
-| Product documentation | Yes | Public submission materials |
-| Architecture overview | Yes | High-level system design |
-| Demo materials | Yes | Judge-facing demo support |
-| OpenBid SDK | Separate repo | Fully open-source technical companion |
-| Production smart contracts | No | Private implementation |
-| Backend services | No | Private implementation |
-| Admin tooling | No | Private implementation |
-| Deployment infrastructure | No | Private implementation |
+This repository contains submission materials and product documentation.
 
----
+The [Openbid repository](https://github.com/basedbid-public/openbid) contains the public, open-source TypeScript SDK.
 
-## OpenBid SDK
-
-The OpenBid SDK is maintained separately:
-
-https://github.com/basedbid-public/openbid
-
-It is the public, open-source developer companion for interacting with basedbid.
-
-This repository remains the public Colosseum submission hub.
+Production contracts, private backend services, deployment infrastructure and internal tooling are not included here. See [the private-code boundary](./private-code-boundary.md).
