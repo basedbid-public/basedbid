@@ -1,64 +1,37 @@
-# Judge Review Guide
+# Judge review guide
 
-This repository is designed to make the basedbid submission easy to evaluate.
+A short guide to our **Colosseum Crypto World's Fair 2026 submission**.
 
-## Review this first
+basedbid powers token launches and branded launchpads across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
 
-1. `README.md`: high-level overview
-2. `SUBMISSION.md`: hackathon submission summary
-3. `HOWITWORKS.md`: product mechanics
-4. `docs/JUDGE_CRITERIA_FEEDBACK.md`: direct judge criteria alignment
-5. `docs/`: deeper product and architecture notes
-6. `demo/`: demo materials
-7. `traction.md`: traction and progress
-8. `Colosseum-Weekly-Updates/`: weekly build history
-9. OpenBid SDK: open-source technical companion
+## Suggested review order
 
-## Open-source SDK
+1. [Product overview](./README.md): What basedbid does and who it serves.
+2. [Submission summary](./SUBMISSION.md): The problem, product, business model and full-release scope.
+3. [Product demo](./demo/Live-Product-walkthrough.md): The walkthrough and demo materials.
+4. [Traction](./traction.md): Live usage, infrastructure demand and integrations.
+5. [Team](./WHY_THIS_TEAM_CAN_WIN.md): Our experience, roles and execution.
+6. [How it works](./HOWITWORKS.md): Launch types, Fee Builder, Rewards Baskets and partner infrastructure.
 
-The fully open-source SDK lives here:
+## What makes basedbid different
 
-https://github.com/basedbid-public/openbid
+- **Economics that can evolve:** Fee routes and Rewards Basket settings can change after launch without redeploying the token.
+- **Rewards funded by trading fees:** No sales of the launched token are needed to fund distributions.
+- **Infrastructure for other platforms:** Partners offer our capabilities through branded Boards or integrate them into existing products.
+- **Multichain reach:** The full release covers all six supported networks.
 
-The SDK demonstrates developer-facing interaction with basedbid, including Boards, LBPs, Flash Tokens, buys, sells, and supporting utilities.
+## Technical review
 
-## What this repo demonstrates
+[Openbid SDK](https://github.com/basedbid-public/openbid) is our public, open-source TypeScript SDK for developers integrating basedbid.
 
-This repository demonstrates:
+[Technical documentation](./docs/) explains the architecture and product components. [Weekly updates](./Colosseum-Weekly-Updates/) record project progress.
 
-- the basedbid product model
-- the launch infrastructure thesis
-- the Board concept
-- Fee Builder mechanics
-- traction and partnerships
-- hackathon progress
-- public documentation
-- open-source SDK direction
+This repository contains submission materials and documentation, not the complete production codebase. Production contracts, private backend services and deployment infrastructure are not included here.
 
-## Key differentiation
+See [the private-code boundary](./docs/private-code-boundary.md) and [disclaimer](./DISCLAIMER.md) for details.
 
-basedbid should be evaluated as programmable launch infrastructure, not only as a token launcher.
+## Try the product
 
-The team built custom launch and fee-routing infrastructure for major DEX environments across major chains. That matters because different DEXs and chains require different execution paths, liquidity mechanics, and fee behavior.
-
-The result is a complete dynamic token system: launch configuration, Board-owned distribution, programmable fee routing, post-launch creator revenue, and a public SDK surface through OpenBid.
-
-## What this repo does not demonstrate
-
-This repository does not include the complete production protocol implementation, even though boards, pools, token launches, and OpenBid support are live on mainnet.
-
-It does not demonstrate:
-
-- audited production smart contracts
-- complete backend source code
-- deployment keys or infrastructure
-- private routing logic
-- complete security verification
-
-## Why the code is split
-
-The public basedbid repository is the submission and documentation hub.
-
-The OpenBid repository is the clean, open-source SDK repository.
-
-This separation keeps the hackathon submission easy to review while keeping developer tooling clean and independently usable.
+- [Live platform](https://www.based.bid/)
+- [Launch interface](https://www.based.bid/create)
+- [Product guides](https://basedinc.gitbook.io/basedbid)
