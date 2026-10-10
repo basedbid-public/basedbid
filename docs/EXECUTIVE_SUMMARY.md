@@ -1,106 +1,75 @@
-# Executive Summary: BasedBid
+# basedbid | Executive summary
 
-**2-Minute Judge Overview**
+## Programmable economies
 
----
+**Tokens launched on basedbid earn more trading fees, with creators choosing how to put them to work without selling the token.**
 
-## **The Problem**
-Token creators are limited by platform lock-in. Pump.fun gives creators 0.05%-0.95% fees but only on PumpSwap - if tokens move to other DEXs, creators get $0. This creates platform dependency and limits growth.
+Simple launches. Trading fees that support the project long after launch.
 
-## **Our Solution**
-**BasedBid enables creators to earn 1-10% of ALL trading volume forever** - not just during launch, but for the entire lifetime of their token, on any DEX, any chain.
+basedbid powers token launches and branded launchpads across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
 
----
+Our **Fee Builder** lets projects choose how trading revenue funds growth, liquidity, buybacks, treasury and holder rewards. **Rewards Baskets** pay eligible holders in supported tokens, tokenized stocks and ETFs.
 
-## **What's Live Today**
+Fee routes and basket settings can change after launch without redeploying. Projects can adapt their economics as they grow, with **no sales of the launched token needed to fund distributions**.
 
-✅ **5 chains operational**: Ethereum, Base, BNB Chain, MegaETH, Solana
+## The problem
 
-✅ **3 product lines shipping**: Pools (bonding curves), Flash Tokens (virtual liquidity), Boards (white-label launchpads)
+Projects generate trading activity but often have limited control over the revenue it creates. Some reward models sell project tokens to fund payouts, adding selling pressure. Fixed launch economics can become restrictive as a project's needs change.
 
-✅ **Real commercial traction**: Platform processing volume across multiple chains
+Other platforms want to offer launches under their own brand, but building and maintaining the contracts, backend and integrations takes specialist work.
 
-✅ **Key partnerships signed**: MLMX flagship Board ready for launch
+## The product
 
-## **Hackathon Innovation: Fee Builder**
-**(Launching Week 2)**
+Creators can launch directly through basedbid:
 
-**Game Changer:** Programmable Treasury system that splits trading fees across unlimited recipients in real-time.
+- **Flash Tokens:** Launch directly into DEX trading using virtual liquidity.
+- **LBP:** Trade on basedbid until the target market cap is reached, then graduate to a supported DEX.
+- **Pre-Launch:** Set a time limit, minimum and maximum funding goals, and the share of funds raised allocated to the creator. Tokens trade on basedbid before DEX graduation.
 
-**Why It Matters:**
-- Creators can pay marketing KOLs in stablecoins from trading volume (no token dumps)
-- DAOs can fund development from fee revenue (sustainable treasuries)
-- Projects can automate buybacks, rewards, and charity donations
-- **Zero liquidity impact** - fees collected at swap level, not from pools
+Choose **Standard or Pro** first. Standard offers quick Flash Token launches with minimal settings. Pro provides the available launch types and advanced configuration.
 
-**Example:**
-```
-Trading fees automatically split:
-3% → Creator (ETH)
-1% → Marketing (USDC)
-1% → Development (USDC)
-0.5% → Buybacks (ETH)
-1% → DAO Treasury (ETH)
-```
+The **Fee Builder** routes trading revenue to creator income, treasury, liquidity, buybacks, marketing, custom wallets and holder rewards. The **Rewards Basket** distributes supported tokens, tokenized stocks and ETFs.
 
----
+Fee routes and basket settings can change after launch without redeploying. Available assets, DEXs and settings vary by network.
 
-## **Competitive Advantage**
+## Beyond our own platform
 
-**The Math:** On $100k daily volume at 10% fees = **$3.65M/year creator income** vs. pump.fun's max $347k/year (0.95% on PumpSwap only).
+**Boards** let communities and platforms operate branded launch environments. **Openbid, API, SDK and ABI** let partners integrate supported capabilities into existing products.
 
-**10.5x higher earnings + works on ANY DEX. Infinite Fee routing**
+We serve projects launching tokens and platforms building launchpads. Partners extend our reach through their own users.
 
----
+## Live traction
 
-## **Strategic Partnerships**
+Our mainnet beta has supported:
 
-### **MLMX (Scott/Midterm)**
-- Flagship Board partner with proven track record
-- First Fee Builder user when it launches
-- Creates replicable blueprint for other KOLs
+- **Hundreds of token launches.**
+- **Millions in tracked onchain trading volume.**
+- **Tens of thousands of dollars in fees generated for projects.**
 
-### **GemPad Integration**
-- Leading IDO launchpad partnership
-- Dual-platform launches for maximum exposure
+We also have **13+ backend API integration agreements**, with partners at different stages of implementation.
 
----
+[Explore traction and integrations](../traction.md)
 
-## **Why We Win**
+## Business model and team
 
-1. **First-mover on lifetime fees**: No other platform offers sustainable creator economics
-2. **Multi-chain from day one**: While others focus on single chains, we're everywhere
-3. **Proven commercial model**: MLMX partnership validates Board economics
-4. **Technical innovation**: Fee Builder solves revenue distribution nobody else tackles
-5. **Market timing**: Creators are demanding better economics - we deliver them
+basedbid earns a share of trading fees from launches using our infrastructure, including through partner platforms. Revenue can continue as those tokens trade, rather than depending only on new launches.
 
----
+Our core team has around five years of shared experience building crypto launch infrastructure. We've self-funded basedbid's development for over 15 months, combining engineering, partnerships, growth and developer tooling.
 
-## **5-Week Hackathon Timeline**
+[Meet the team](../WHY_THIS_TEAM_CAN_WIN.md)
 
-- **Week 1**: Foundation + MLMX partnership documentation 
-- **Week 2**: **Fee Builder launch** (the innovation) 
-- **Week 3**: Demo development + traction metrics
-- **Week 4**: Commercial validation + additional partnerships
-- **Week 5**: Final polish + submission
+## Full release
 
----
+**As of 10 October 2026**, the full-release update is in final testing before moving to the primary domain. It covers all six networks, with a redesigned interface, easier configuration, expanded Rewards Baskets and improved partner integration tools.
 
-## **The Bottom Line**
+We want trading activity to help sustain projects, not just fund a one-off launch. Programmable economies give creators the tools to put that revenue to work as their needs change.
 
-**BasedBid isn't just another launchpad - it's infrastructure for sustainable token economics.**
+**Our goal is to make basedbid the default choice for launching a token or building a launchpad.**
 
-We transform tokens from pump-and-dumps into revenue-generating assets that fund their own development, marketing, and community growth. The Fee Builder makes this programmable and automatic.
+## Explore
 
-**Vision:** Every successful token becomes a self-sustaining business through automated fee distribution.
-
-**Traction:** Live on 5 chains with real partnerships ready to scale.
-
-**Innovation:** Fee Builder launches next week as the hackathon's technical breakthrough.
-
----
-
-**🔗 Try it live:** [based.bid](https://based.bid)
-**📚 Full docs:** [basedinc.gitbook.io/basedbid](https://basedinc.gitbook.io/basedbid)
-
-*The protocol doesn't eat first. The builder eats first.*
+- [Live platform](https://www.based.bid/)
+- [Submission overview](../SUBMISSION.md)
+- [Product demo](../demo/Live-Product-walkthrough.md)
+- [How it works](../HOWITWORKS.md)
+- [Openbid SDK](https://github.com/basedbid-public/openbid)
