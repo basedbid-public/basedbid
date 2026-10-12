@@ -2,7 +2,7 @@
 
 ## Summary
 
-basedbid powers token launches and branded launchpads across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
+basedbid powers token launches and branded launchpads on mainnet across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
 
 Its **Fee Builder** lets projects configure trading fees and choose how revenue supports creator income, treasury, liquidity, buybacks, marketing and holder rewards. **Rewards Baskets** distribute supported tokens, tokenized stocks and ETFs without selling the launched token to fund distributions.
 
@@ -25,19 +25,27 @@ basedbid gives creators configurable economics and gives partners reusable infra
 ## The product
 
 - **Flash Tokens:** Instant DEX launches using virtual liquidity.
-- **Liquidity Bonding Pools:** Tokens trade on basedbid before graduating to a supported DEX under configured conditions.
+- **LBP:** Tokens trade on basedbid until the target market cap is reached, then graduate to a supported DEX.
 - **Pre-Launch:** Creators set a time limit, minimum and maximum funding goals, and the share of funds raised allocated to them.
 - **Fee Builder:** Configurable trading-fee routes, including receiving wallets that can be updated after launch.
 - **Rewards Basket:** Selected supported assets, configurable allocations, holder eligibility, and rotating or simultaneous payouts.
 - **Boards and Openbid:** Branded launch environments and integration options for external products.
 
-Standard offers quick launches with minimum settings. Pro provides deeper configuration, including Fee Builder and Rewards Basket options where supported.
+Creators choose Standard or Pro before selecting their launch type. Standard is for quick Flash Token launches only. Pro provides the available launch types and deeper configuration, including Fee Builder and Rewards Basket options where supported.
 
 *Available launch types, DEXs, quote assets, reward assets and settings vary by network.*
 
 ## Full-release focus
 
-The full release brings together:
+### Prior work and competition-period development
+
+basedbid and its mainnet beta existed before **14 September 2026**. The **Fee Builder and EVM Rewards Basket** were already built.
+
+During the competition, we built the **Solana Rewards Basket**, redesigned the **Solana Fee Builder** and developed **Pre-Launch**. The full platform was not built from scratch during the competition.
+
+### Release scope
+
+The full release covers all six supported networks and brings together:
 
 - A complete visual overhaul and simpler navigation.
 - Easier launch and fee configuration.
@@ -48,7 +56,9 @@ The demo follows a Flash Token launch using the Fee Builder and Rewards Basket, 
 
 ## Traction and business model
 
-The existing mainnet platform has supported **millions in trading volume, hundreds of token launches and tens of thousands of dollars in fees generated for projects** across supported networks.
+The existing mainnet platform has supported **300+ token launches, at least $2.5 million in trading volume and over $50,000 in fees generated for projects**. These are cumulative platform figures, not competition-only activity. Project fees are not basedbid's own revenue.
+
+We have **13+ backend API integration agreements**, with partners at different implementation stages. [Hooded](https://hooded.club/feed) is using our Openbid SDK in an early integration.
 
 basedbid earns a share of trading fees, including from launches through partner platforms. Partner integrations provide distribution beyond basedbid's own interface.
 
@@ -60,7 +70,9 @@ Our goal is to become the default choice for launching a token or building a lau
 
 The existing platform is live at [based.bid](https://www.based.bid/).
 
-**As of 9 October 2026:** The updated Solana deployment has moved to mainnet for final testing. It will move to the primary domain once the final checks are complete. The primary-domain deployment should not be assumed to contain every feature in the release being tested.
+**At submission on 12 October 2026**, the primary domain hosts the existing mainnet beta. The submitted demo shows the updated full release, which is undergoing final testing and is not yet publicly accessible. It will replace the beta on the same domain once ready.
+
+The release covers all six networks. Updated contracts may be redeployed before release, so testing addresses should not be treated as final production addresses.
 
 ## Review links
 
