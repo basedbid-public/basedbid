@@ -14,6 +14,8 @@
 
 **Colosseum Crypto World's Fair 2026 submission**
 
+**[Watch the pitch](https://youtu.be/F_rXVZ9Ck2E)** | **[Watch the product demo](https://youtu.be/xJ4ocTRwGzg)**
+
 **Tokens launched on basedbid earn more trading fees, with creators choosing how to put them to work without selling the token.**
 
 basedbid is live on mainnet across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**, with **300+ token launches, at least $2.5 million in trading volume and over $50,000 in fees generated for projects**.
@@ -112,11 +114,6 @@ The complete platform and historical traction should not be treated as work or u
 ## Public code and production boundary
 
 This repository contains public submission materials and product documentation. It is **not the complete production codebase**.
-
-The public TypeScript SDK is maintained in [Openbid](https://github.com/basedbid-public/openbid). Full production contracts, private backend services, deployment infrastructure and internal tooling are not included here.
-
-See [DISCLAIMER.md](./DISCLAIMER.md) and [the private-code boundary](./docs/private-code-boundary.md) for details.
-
 
 The public TypeScript SDK is maintained in [Openbid](https://github.com/basedbid-public/openbid). Full production contracts, private backend services, deployment infrastructure and internal tooling are not included here.
 
