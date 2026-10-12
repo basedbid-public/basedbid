@@ -1,6 +1,6 @@
 # Why this team can win
 
-We've spent around five years building and operating crypto launch infrastructure together. basedbid comes from that experience: working with creators, supporting live launches and understanding what other platforms need from their technology.
+Our core team has around five years of shared experience building and operating crypto launch infrastructure. basedbid comes from that experience: working with creators, supporting live launches and understanding what other platforms need from their technology.
 
 ## The team
 
@@ -12,13 +12,15 @@ Around 20 years in software development and five years in blockchain. Built GemP
 
 Around five years in launchpad business development and partnerships. Leads project onboarding, ecosystem relationships and partner adoption.
 
-**Seth | Growth and strategy and co-founder**
+**Seth | Growth and strategy, co-founder**
 
 Leads growth, positioning and communication, helping creators and partners understand and adopt basedbid.
 
 **Dante | Bot development and Openbid SDK**
 
 Around 10 years in web development and four years in Web3. Works on the Openbid SDK, bots, automation and integration tooling that help external platforms build on basedbid.
+
+Seth and Michael are based in Ireland, Redrum in Croatia and Dante in Slovenia. Remote working suits the team, and receiving funding would not change that arrangement.
 
 ## We know the customer
 
@@ -32,16 +34,17 @@ Our Fee Builder and Rewards Baskets address the first need. Boards and our integ
 
 We've worked full time on basedbid for over 15 months and self-funded development.
 
-The platform is live across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**. Its beta has supported:
+The existing platform is live on mainnet across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
 
-- **Hundreds of token launches.**
-- **Millions in tracked onchain trading volume.**
-- **Tens of thousands of dollars in fees generated for projects.**
-- **13+ agreements to integrate our backend API**, with partners at different stages of implementation.
+During this competition, we built the **Solana Rewards Basket**, redesigned the **Solana Fee Builder** and developed **Pre-Launch**. The platform, mainnet beta, Fee Builder and EVM Rewards Basket predate the competition.
 
-We're now completing final testing for the full release across all six networks.
+We are completing final testing of the updated full release. It is not yet publicly accessible and will replace the beta on the primary domain once ready.
 
 [Explore our traction and integrations](./traction.md)
+
+## Contributions outside the registered team
+
+Lumi, our graphic designer, created branding, banners and graphics used on basedbid's social channels. Lumi is not listed on the registered team.
 
 ## How we plan to win
 
