@@ -1,35 +1,33 @@
-# Public Repository Boundary
+# Repository scope
 
-This repository is the public Colosseum submission hub for BasedBid. It is designed to explain the product, market, architecture, traction, demo flow, and open-source SDK surface.
+This is basedbid's public **Colosseum Crypto World's Fair 2026 submission and documentation hub**. It is **not the complete production codebase**.
 
-## Public in this repository
+It contains the product overview, development disclosure, architecture notes, traction summaries and demo materials. The public TypeScript SDK is maintained separately in [Openbid](https://github.com/basedbid-public/openbid).
 
-- Submission narrative and judge navigation.
-- Product documentation for Pools, Flash Tokens, Boards, and Fee Builder.
-- Architecture notes and fee-routing explanations.
-- Demo walkthroughs and deployment notes.
-- Market research, traction summaries, and partnership documentation.
-- Links to the OpenBid SDK.
+Full production contracts, private backend services, deployment infrastructure and internal tooling are not included here.
 
-## Public in OpenBid
+## Prior work
 
-OpenBid is the open-source TypeScript SDK:
+basedbid and its mainnet beta existed before **14 September 2026**, including the Fee Builder and EVM Rewards Basket.
 
-https://github.com/basedbid-public/openbid
+Competition-period work comprised the **Solana Rewards Basket**, a **redesign of the Solana Fee Builder** and the **Pre-Launch** launch type.
 
-It contains developer-facing tooling for interacting with BasedBid, including Board creation, LBP creation, Flash Token creation, buy and sell flows, schemas, ABIs, and API transaction helpers.
+The complete platform and its cumulative usage are not presented as work or activity created exclusively during this competition.
 
-## Private production components
+[Read the submission disclosure](./SUBMISSION.md)
 
-The complete production BasedBid implementation is live but private. This repository does not include:
+## Product access at submission
 
-- full production smart contracts
-- private backend services
-- deployment infrastructure
-- admin tooling
-- internal routing logic
-- private keys or operational secrets
+At submission on **12 October 2026**, [based.bid](https://www.based.bid/) hosts the existing mainnet beta.
 
-## Why the split exists
+The submitted demo shows the updated full release, which is undergoing final testing and is not yet publicly accessible. It will replace the beta on the same domain once ready. Updated contracts may be redeployed before release.
 
-The split keeps the hackathon submission reviewable while keeping production security boundaries intact. Judges can evaluate the product thesis, traction, architecture, demo materials, and public SDK without exposing sensitive production code.
+Available launch types, DEXs, assets and settings vary by network. Documentation of a full-release feature does not mean that feature is already available in the public beta.
+
+## Metrics and fees
+
+Published milestones are cumulative platform figures, not competition-only activity. Fees generated for projects are separate from basedbid's own revenue.
+
+Current platform fee rates will change for the full release. Examples illustrate configurations, not guaranteed earnings.
+
+[Metrics and definitions](./metrics/README.md) | [Public and private code boundary](./docs/private-code-boundary.md)
