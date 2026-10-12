@@ -1,105 +1,44 @@
-# Metrics
+# Metrics and definitions
 
-basedbid tracks traction across product usage, partner distribution, integrations, and infrastructure revenue.
+**Submission snapshot: 12 October 2026.**
 
-The polished version of basedbid went live on mainnet in the first week of May 2026. Since then, token launches have begun, Boards have been created, and the first wave of secured clients and partners is actively launching, onboarding, or integrating basedbid infrastructure.
+These are cumulative milestones for basedbid's existing mainnet platform across supported networks. They are not monthly totals or activity generated exclusively during the competition.
 
-## Current measurement categories
+## Published milestones
 
-| Category                | What we track                                                                                    |
-| ----------------------- | ------------------------------------------------------------------------------------------------ |
-| Token launches          | Tokens launched, live, or preparing to launch through basedbid                                   |
-| Pools                   | Pools deployed, live, or preparing to deploy                                                     |
-| Boards                  | Boards created, onboarding, or actively launching projects                                       |
-| Board owners            | KOLs, marketing agencies, known high-trust developers, communities, and partners creating Boards |
-| Integrations            | API and OpenBid SDK integrations                                                                 |
-| Partner launches        | Tokens deployed through partner-owned launch surfaces                                            |
-| Fee Builder usage       | Launches using programmable fee routing                                                          |
-| Infrastructure revenue  | Protocol fee share from tokens deployed through basedbid                                         |
-| Ecosystem relationships | Blockchain, developer, and launch ecosystem partnerships                                         |
+| Metric | Reported milestone | Meaning |
+| --- | --- | --- |
+| Token launches | 300+ | A lower bound, not an exact current count |
+| Trading volume | At least $2.5 million | A documented historical volume milestone, not an exact current total |
+| Project fees | Over $50,000 | Fees generated for projects, not basedbid's own revenue |
+| Backend API agreements | 13+ | Agreements at different implementation stages, not 13 completed integrations |
+| Named SDK adoption | Hooded | Early integration, not a claimed mature revenue-generating deployment |
 
-## Current status
+We do not publish a current combined platform-revenue figure.
 
-| Metric                               | Status                                       |
-| ------------------------------------ | -------------------------------------------- |
-| Mainnet product                      | Polished version live first week of May 2026 |
-| Token launches                       | Live and underway                            |
-| Boards                               | Created, live, and onboarding                |
-| Pools                                | Live                                         |
-| Fee Builder                          | Live                                         |
-| OpenBid support                      | Live                                         |
-| KOL-created Boards                   | Created and onboarding                       |
-| Marketing agency Boards              | Created and onboarding                       |
-| High-trust developer Boards          | Created and onboarding                       |
-| Companies switching from competitors | Active                                       |
-| API integrations                     | Active and in progress                       |
-| OpenBid SDK integrations             | Active and in progress                       |
-| Partner launch pipelines             | Active                                       |
+## Keep adoption categories separate
 
-## Live traction
+- **Token launches:** Deployed tokens, not projects merely preparing to launch.
+- **Trading-platform integrations:** Discovery and trading access for basedbid tokens.
+- **Backend agreements:** Commitments to integrate, with implementation still varying by partner.
+- **SDK adoption:** Use of our developer tooling by an external team.
+- **Partner revenue:** Requires actual fee-generating activity; an agreement alone is not revenue.
 
-basedbid already has live usage across launches and Boards.
+## Product usage versus feature usage
 
-Current traction includes:
+Platform-wide launch and trading totals do not establish how many projects used the Fee Builder, configured a Rewards Basket or changed routes after launch.
 
-* token launches already live or underway
-* Boards already created
-* Boards being created by KOLs, marketing agencies, and known high-trust developers
-* secured clients actively launching, onboarding, or integrating
-* partner-led launch pipelines
-* API and OpenBid SDK integrations in active progress
-* companies switching from competitor infrastructure to basedbid
-* real paying clients being routed through partner-owned launch surfaces
+Those feature-specific counts are not supplied in this submission. We should not infer them from the total number of launches.
 
-This means basedbid is not waiting for its first users. It is already moving from polished mainnet release into repeatable distribution.
+The Solana Rewards Basket, redesigned Solana Fee Builder and Pre-Launch are competition-period developments. Historical totals should not be attributed exclusively to those features.
 
-## Why these metrics matter
+## Review resources
 
-basedbid is infrastructure, so the most important metrics are not only direct website usage.
+- [Traction and integration status](../traction.md)
+- [Live mainnet beta](https://www.based.bid/)
+- [Hooded](https://hooded.club/feed)
+- [Openbid SDK](https://github.com/basedbid-public/openbid)
+- [Official announcements](https://x.com/basedbidx)
+- [Submission and prior-work disclosure](../SUBMISSION.md)
 
-The core traction loop is:
-
-```text
-Board or integration created
-→ partner brings paying clients
-→ clients deploy tokens through basedbid
-→ launches generate fees
-→ creators, Boards, integrators, and basedbid participate in revenue
-→ partners have incentive to bring more launches
-```
-
-Every Board, API integration, SDK integration, and partner launch surface adds distribution. When those partners bring real paying clients, basedbid participates in the fee stream for each token deployed through the infrastructure.
-
-## Revenue-related metrics
-
-basedbid receives a protocol share from tokens deployed through the infrastructure.
-
-Revenue-related metrics include:
-
-* number of tokens deployed through basedbid
-* number of Board-linked launches
-* number of partner-routed launches
-* trading volume through basedbid-launched tokens
-* Fee Builder configurations used
-* protocol fee share generated
-* recurring fee streams created for creators, Boards, and integrators
-
-## Supporting analysis
-
-* [Fee comparison](./fee-comparison.md)
-* [Market analysis](./market-analysis.md)
-
-## Metrics currently being expanded
-
-Following the polished mainnet release in the first week of May 2026, basedbid is expanding public reporting around:
-
-* tokens launched
-* Boards created
-* active client launches
-* API integrations
-* OpenBid SDK integrations
-* blockchain ecosystem partnerships
-* partner-routed deployments
-* fee-generating token launches
-
-Exact public counts will be updated as launches and integrations move from onboarding to live usage.
+These links provide product and adoption context. They are not presented as a single public dashboard independently verifying every milestone above.
