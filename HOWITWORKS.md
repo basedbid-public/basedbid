@@ -4,6 +4,8 @@ basedbid combines **token launches, programmable trading-fee routing and multi-a
 
 It supports **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**. Available launch types, DEXs, assets and settings vary by network.
 
+**At submission**, the primary domain hosts the existing mainnet beta. This guide also describes updated full-release features shown in the demo; that release is still in final testing and is not yet publicly accessible. See [the development disclosure](./SUBMISSION.md) for what existed before the competition and what was built during it.
+
 ## 1. Choose Standard or Pro
 
 Choose the interface mode before choosing your launch type.
@@ -22,11 +24,11 @@ Flash Tokens launch directly into DEX trading using virtual liquidity. They do n
 
 Creators select the supported network and launch configuration. In Pro, they can configure trading fees and supported Fee Builder routes before launching.
 
-### Liquidity Bonding Pools
+### LBP
 
-Liquidity Bonding Pools trade on basedbid before graduating to a supported DEX.
+LBPs trade on basedbid before graduating to a supported DEX.
 
-Creators configure the available launch parameters and graduation target. Once the applicable graduation conditions are met, liquidity migrates to the selected DEX.
+Creators set a target market cap. Once it is reached, the LBP graduates and liquidity migrates to the selected supported DEX.
 
 ### Pre-Launch
 
@@ -74,8 +76,6 @@ The configuration includes:
 - **Distribution settings:** Configure the available payout options and collected-fee trigger.
 
 Holder eligibility and the distribution trigger are different settings: one determines who qualifies, while the other determines when collected fees are distributed.
-
-A basket shown in the interface demonstrates its configuration, not proof that a payout has occurred. A completed distribution should be verified through its onchain transaction.
 
 ## 5. Review and launch
 
@@ -128,7 +128,7 @@ Use the current interface and [GitBook guides](https://basedinc.gitbook.io/based
 
 ## Deployment and source-code scope
 
-The existing platform is live on mainnet. Updated release features may be in final testing before they are available on the primary domain. See [SUBMISSION.md](./SUBMISSION.md) for the dated deployment status.
+The updated full release will replace the beta on the same domain once ready. Updated contracts may be redeployed before release; testing addresses should not be treated as final production addresses.
 
 This document explains product mechanics; it is not the full contract specification or a security audit. The complete production implementation is private, while the public TypeScript SDK is available in Openbid.
 
