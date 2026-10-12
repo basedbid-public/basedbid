@@ -71,7 +71,6 @@ The release brings a redesigned interface, easier configuration, expanded Reward
 ## Evidence and verification
 
 - [Live platform](https://www.based.bid/): Inspect launched tokens, Boards and token-detail pages.
-- [DeFiLlama](https://defillama.com/protocol/basedbid): External protocol analytics; use it only for metrics actually displayed there.
 - [Openbid SDK](https://github.com/basedbid-public/openbid): Public developer tooling and integration surface.
 - [Official X account](https://x.com/basedbidx): Announcements and public updates.
 - [Weekly updates](./Colosseum-Weekly-Updates/): Recorded project progress.
