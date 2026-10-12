@@ -1,114 +1,44 @@
 # Fee Builder
 
-Fee Builder is the programmable fee routing system for basedbid launches.
+The **Fee Builder** lets projects decide how trading revenue supports their token economy, then change supported routes and allocations as their needs evolve.
 
-It lets creators, Boards, and future governance structures define how trading fees are allocated across multiple recipients.
+It is part of Pro configuration. Standard quick Flash Token launches do not use the Fee Builder.
 
-Instead of treating all launch revenue as a single protocol-owned stream, Fee Builder makes launch economics configurable.
+## Where fees can go
 
----
+- **Creator income and development:** Pay the people building the project.
+- **Treasury and marketing:** Fund operations and growth.
+- **Liquidity:** Allocate revenue to supported liquidity mechanisms.
+- **Buybacks and burns:** Use collected fees to buy the launched token, with burn options where supported.
+- **Holder rewards:** Fund a Rewards Basket.
+- **Custom wallets:** Allocate revenue to selected recipients.
 
-## Visual overview
+Fee Builder distributions do not require selling the launched token. This avoids token sales to fund those distributions, not ordinary market selling or all price pressure.
 
-<p align="center">
-  <img width="1440" height="896" alt="basedbid Fee Builder flow" src="https://github.com/user-attachments/assets/271ed1d4-ac74-48ff-8d7f-e5e2e75e010f" />
-</p>
+## Rewards Basket
 
-## What Fee Builder can route to
+Creators choose supported assets, their allocations and holder eligibility and payout settings.
 
-Fee Builder can support routing across recipients such as:
+A basket can contain supported tokens, tokenized stocks and ETFs. Payouts can rotate through individual assets or distribute across the basket simultaneously.
 
-* creator revenue;
-* KOL incentives;
-* community rewards;
-* user rewards;
-* buybacks;
-* burns;
-* marketing wallets;
-* liquidity allocations;
-* incubator allocations;
-* DAO treasuries;
-* custom wallets.
+Available assets and settings vary by network.
 
----
+## Updates after launch
 
-## Why it matters
+Authorised users can change supported fee routes, receiving wallets and basket settings without redeploying the token.
 
-Many launch systems create misalignment:
+For example, a project could initially allocate revenue to development, then adjust the allocation toward holder rewards as its needs change. This is an illustrative configuration, not an earnings forecast.
 
-* creators lose economics to the platform;
-* KOLs are paid in tokens and may need to sell;
-* tax-token models can accumulate tokens and create visible sell pressure;
-* static contracts make it hard to update economics after launch.
+## Development status
 
-Fee Builder is designed to make launch economics programmable and adaptable.
+The Fee Builder and EVM Rewards Basket existed before **14 September 2026**. Competition-period work included the **Solana Rewards Basket** and a **redesign of the Solana Fee Builder**.
 
----
+The submitted demo shows the updated full release. At submission, the primary domain still hosts the existing mainnet beta; updated contracts are being tested and may be redeployed.
 
-## Native or stable asset routing
+## Further reading
 
-Fee Builder is designed around cleaner reward routing.
-
-Instead of forcing every stakeholder to receive project tokens, rewards can be routed in native or stable assets where supported.
-
-This matters because token-based compensation can create sell pressure when teams, KOLs, marketers, or service providers need to realize income.
-
----
-## Fee Builder flow
-
-> Trade occurs  
-> ↓  
-> Fee logic is applied  
-> ↓  
-> Routing rules determine recipients  
-> ↓  
-> Recipients receive configured allocations  
-> ↓  
-> Governance can update rules over time if enabled.
-
----
-
-## Supported allocation categories
-
-| Category  | Example use                     |
-| --------- | ------------------------------- |
-| Creator   | Sustainable project revenue     |
-| KOL       | Distribution partner incentives |
-| Rewards   | User or holder rewards          |
-| Marketing | Growth budget                   |
-| Buyback   | Market support allocation       |
-| Liquidity | Liquidity support               |
-| Treasury  | DAO or multisig treasury        |
-| Custom    | Any approved wallet or module   |
-
----
-
-## Governance and updates
-
-Fee Builder is designed to support evolving project needs.
-
-A project may start with creator-controlled routing and later transition control to:
-
-* a multisig;
-* a DAO;
-* token-holder governance;
-* a community takeover structure.
-
-This allows projects to adapt without needing to relaunch their entire token economy.
-
----
-
-## Relationship to Boards
-
-Boards can define default Fee Builder settings for launches created through that Board.
-
-For example, a KOL Board might require every launch to route fees across:
-
-* creator revenue;
-* KOL incentives;
-* community rewards;
-* marketing;
-* buybacks;
-* treasury.
-
-This makes Boards programmable distribution environments rather than simple listing pages.
+- [How it works](../HOWITWORKS.md)
+- [Architecture](./architecture.md)
+- [Boards](./boards.md)
+- [Submission and development disclosure](../SUBMISSION.md)
+- [Current fee schedule](https://basedinc.gitbook.io/basedbid/fees): Existing platform rates; the full-release rates will change.
