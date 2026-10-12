@@ -2,18 +2,23 @@
 <img width="512" height="512" alt="emerald basedbid logo with BG container2" src="https://github.com/user-attachments/assets/6deb4b52-c8af-4200-8e8d-61d2bdc96ea5" />
 </picture>
 
-[![X(Twitter)](https://img.shields.io/twitter/follow/basedbidx?style=flat&logo=x&label=follow&color=000000)](https://x.com/basedbidx)
+[![X (Twitter)](https://img.shields.io/twitter/follow/basedbidx?style=flat&logo=x&label=follow&color=000000)](https://x.com/basedbidx)
+[![Telegram](https://img.shields.io/badge/Telegram-join-26A5E4?style=flat&logo=telegram)](https://t.me/ThebasedInc)
 [![Website](https://img.shields.io/badge/based.bid-live-00ff00?style=flat)](https://based.bid)
 [![Docs](https://img.shields.io/badge/docs-gitbook-blue?style=flat)](https://basedinc.gitbook.io/basedbid)
 [![OpenBid SDK](https://img.shields.io/badge/OpenBid-SDK-2ecc71?style=flat&logo=github)](https://github.com/basedbid-public/openbid)
 
 # basedbid
 
-### Simple launches. Powerful economies.
+### Programmable economies. Simple launches.
 
 **Colosseum Crypto World's Fair 2026 submission**
 
-basedbid powers token launches and branded launchpads across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
+**Tokens launched on basedbid earn more trading fees, with creators choosing how to put them to work without selling the token.**
+
+basedbid is live on mainnet across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**, with **300+ token launches, at least $2.5 million in trading volume and over $50,000 in fees generated for projects**.
+
+These are cumulative platform figures, not competition-only activity or basedbid's own revenue.
 
 Its **Fee Builder** lets creators configure trading fees and choose how revenue supports project funding, liquidity, treasury, buybacks, marketing and holder rewards. **Rewards Baskets** distribute supported tokens, tokenized stocks and ETFs to eligible holders, with **no sales of the launched token needed to fund distributions**.
 
@@ -30,10 +35,10 @@ basedbid gives creators configurable economics and gives partners reusable infra
 ## Launch your way
 
 - **Flash Tokens:** Launch directly into DEX trading using virtual liquidity.
-- **Liquidity Bonding Pools:** Trade on basedbid before graduating to a supported DEX under configured graduation conditions.
+- **LBP:** Trade on basedbid until the target market cap is reached, then graduate to a supported DEX.
 - **Pre-Launch:** Set a time limit, minimum and maximum funding goals, and the share of funds raised allocated to the creator. Tokens trade on basedbid before DEX graduation.
 
-**Standard** offers a quick launch with minimum settings. **Pro** exposes deeper configuration, including Fee Builder and Rewards Basket options where supported. A Standard quick launch is distinct from a configured Fee Builder launch.
+Choose **Standard or Pro** first. Standard is for quick Flash Token launches only. Pro provides the available launch types and deeper configuration, including Fee Builder and Rewards Basket options where supported.
 
 ## Put trading fees to work
 
@@ -59,15 +64,27 @@ Partners earn from launches under their brand according to the configured arrang
 
 ## Traction and release status
 
-The existing platform is live on mainnet. Its beta has supported **millions in trading volume, hundreds of launches and tens of thousands of dollars in project fees** across supported networks.
+We have **13+ backend API integration agreements**, with partners at different implementation stages. [Hooded](https://hooded.club/feed) is using our Openbid SDK, although its integration is still early.
 
-The full release brings together a redesigned interface, easier configuration, expanded Rewards Basket options and easier access to our infrastructure.
+The full release covers all six networks, bringing together a redesigned interface, easier configuration, expanded Rewards Basket options and easier access to our infrastructure.
 
-**As of 9 October 2026:** The updated Solana deployment has moved to mainnet for final testing. It will move to the primary domain after the final checks are complete. The existing live platform and the release being tested are distinct deployments.
+**At submission on 12 October 2026**, [based.bid](https://www.based.bid/) hosts the existing mainnet beta. The submitted demo shows the updated full release, which is still undergoing final testing and is not yet publicly accessible. It will replace the beta on the same domain once ready. Updated contracts may be redeployed before release.
 
 The team has worked together in crypto launch infrastructure for around five years and has self-funded development for over 15 months.
 
 **Our goal is to become the default choice for launching a token or building a launchpad.**
+
+## Prior work and competition-period development
+
+basedbid and its mainnet beta existed before **14 September 2026**. The **Fee Builder and EVM Rewards Basket** were already built.
+
+During this competition, we:
+
+- Built the **Solana Rewards Basket**.
+- Redesigned the **Solana Fee Builder**.
+- Developed the **Pre-Launch** launch type.
+
+The complete platform and historical traction should not be treated as work or usage created exclusively during the competition.
 
 ## Start here
 
@@ -76,7 +93,7 @@ The team has worked together in crypto launch infrastructure for around five yea
 - [Product guides](https://basedinc.gitbook.io/basedbid)
 - [Openbid SDK](https://github.com/basedbid-public/openbid)
 - [Pitch deck](https://www.based.bid/deck)
-- [Contact the team](https://t.me/BasedBidMichael)
+- [Contact the team](https://t.me/TheBasedInc)
 
 ## Submission materials
 
@@ -95,6 +112,11 @@ The team has worked together in crypto launch infrastructure for around five yea
 ## Public code and production boundary
 
 This repository contains public submission materials and product documentation. It is **not the complete production codebase**.
+
+The public TypeScript SDK is maintained in [Openbid](https://github.com/basedbid-public/openbid). Full production contracts, private backend services, deployment infrastructure and internal tooling are not included here.
+
+See [DISCLAIMER.md](./DISCLAIMER.md) and [the private-code boundary](./docs/private-code-boundary.md) for details.
+
 
 The public TypeScript SDK is maintained in [Openbid](https://github.com/basedbid-public/openbid). Full production contracts, private backend services, deployment infrastructure and internal tooling are not included here.
 
