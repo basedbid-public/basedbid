@@ -4,6 +4,20 @@ basedbid provides token-launch and fee-routing infrastructure across **Solana, E
 
 This is a product-level overview, not the complete production implementation. Contracts, DEX integrations and available settings differ by network.
 
+## Development and deployment scope
+
+The platform, mainnet beta, Fee Builder and EVM Rewards Basket existed before **14 September 2026**. During the competition, we built the **Solana Rewards Basket**, redesigned the **Solana Fee Builder** and developed **Pre-Launch**.
+
+At submission, [based.bid](https://www.based.bid/) hosts the existing mainnet beta. The updated full release shown in the demo is in final testing and is not yet publicly accessible. Updated contracts may be redeployed before release.
+
+[Full development disclosure](../SUBMISSION.md)
+
+## Core technologies and integrations
+
+**Anchor, Solidity, Uniswap v4, Raydium, Meteora and Rust.**
+
+These describe core programs and integrated protocols, not a complete inventory of every application dependency.
+
 ## Access and partner integration
 
 Creators use the basedbid interface directly. Communities and platforms offer branded launch environments through **Boards**, while developers integrate supported capabilities through **Openbid, API, SDK and ABI**.
