@@ -1,16 +1,16 @@
 # Traction
 
-basedbid's existing platform is live on mainnet, with usage from direct token launches, branded Boards and infrastructure integrations.
+basedbid's existing platform is live on mainnet across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**, with direct token launches and branded Boards.
 
-**Reporting snapshot: 10 October 2026.** Figures below are rounded cumulative platform totals across supported networks, not monthly figures or Solana-only metrics.
+**Submission snapshot: 12 October 2026.** The figures below are cumulative platform milestones, not monthly figures, competition-only activity or an exact current total.
 
 ## Usage at a glance
 
 | Metric | Activity |
 | --- | --- |
-| Trading volume | Millions in tracked onchain trading volume |
-| Token launches | Hundreds of launches |
-| Project fees | Tens of thousands of dollars generated for projects |
+| Trading volume | At least $2.5 million |
+| Token launches | 300+ |
+| Project fees | Over $50,000 generated for projects |
 | Branded Boards | Live branded launch environments |
 | Public developer tooling | Open-source Openbid SDK |
 
@@ -21,6 +21,8 @@ These figures describe the existing platform's usage. They should not be present
 ## Infrastructure adoption
 
 We have **13+ agreements to integrate our backend API**, with partners at different stages of onboarding and implementation.
+
+[Hooded](https://hooded.club/feed) is using our **Openbid SDK**. Its integration is still early; we do not present it as an established revenue-generating deployment.
 
 Boards provide another distribution channel, allowing communities and platforms to offer launches under their own brand.
 
@@ -33,8 +35,9 @@ These integrations are separate from backend infrastructure customers.
 | GMGN | basedbid tokens integrated |
 | Axiom | basedbid tokens integrated |
 | Fomo | Integration completed for past and future basedbid tokens |
+| Basedbot | basedbid tokens integrated |
 
-Integration helps discovery and trading access. It does not, by itself, establish new token launches, user growth or a guaranteed increase in volume.
+We also have a **Solflare dApp listing**. These integrations expand discovery and trading access beyond our own interface.
 
 ## Recent ecosystem developments
 
@@ -42,18 +45,26 @@ During the week of 5-9 October 2026:
 
 | Organisation | Development |
 | --- | --- |
-| PancakeSwap | Whitelisted basedbid and reposted its announcement |
+| PancakeSwap | Whitelisted basedbid, reposted its announcement and is supporting the upcoming launch |
 | Fomo | Completed integration for past and future tokens |
 | Meteora | Reviewing and advising on the unreleased Solana technology |
 | Binance Wallet | Posted about the basedbid integration on X |
 
 We are also whitelisted by Uniswap and have support from the Solana Foundation and Superteam Ireland.
 
+## Prior work and competition-period development
+
+basedbid and its mainnet beta existed before **14 September 2026**. The **Fee Builder and EVM Rewards Basket** were already built.
+
+During the competition, we built the **Solana Rewards Basket**, redesigned the **Solana Fee Builder** and developed **Pre-Launch**.
+
+Historical platform usage should not be attributed exclusively to these new developments.
+
 ## Full-release progress
 
-The existing platform remains live on mainnet.
+**At submission on 12 October 2026**, [based.bid](https://www.based.bid/) hosts the existing mainnet beta. The submitted demo shows the updated full release, which is still undergoing final testing and is not yet publicly accessible.
 
-**As of 9 October 2026**, the updated Solana deployment had moved to mainnet for final testing. It will move to the primary domain after the final checks are complete.
+The full release covers all six supported networks and will replace the beta on the same domain once ready. Updated contracts may be redeployed before release.
 
 The release brings a redesigned interface, easier configuration, expanded Rewards Basket functionality and easier access to the infrastructure for partners.
 
