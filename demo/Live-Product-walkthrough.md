@@ -28,4 +28,4 @@ The Fee Builder and EVM Rewards Basket predate the competition. Competition-peri
 - [How basedbid works](../HOWITWORKS.md)
 - [Submission overview](../SUBMISSION.md)
 - [Openbid SDK](https://github.com/basedbid-public/openbid)
-- [Final pitch](./PITCH.md)
+- [Final pitch](https://youtu.be/F_rXVZ9Ck2E)
