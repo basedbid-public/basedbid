@@ -1,71 +1,55 @@
-# Judge Criteria Feedback
+# Submission review notes
 
-## One-liner pitch
+This page connects our submission to the questions raised in the draft review. It is our explanation of the evidence, not an official Colosseum score or endorsement.
 
-Programmable launchpad infrastructure for sustainable token launches
+## What existed before the competition
 
-## What is new
+basedbid and its mainnet beta existed before **14 September 2026**. The Fee Builder and EVM Rewards Basket were already built.
 
-BasedBid is not just another launchpad. The novel wedge is the combination of:
+During the competition, we built the **Solana Rewards Basket**, redesigned the **Solana Fee Builder** and developed **Pre-Launch**.
 
-- lifetime creator revenue after launch
-- multi-recipient Fee Builder routing
-- Board-owned launch distribution
-- public SDK access through OpenBid
-- multi-chain positioning with Solana as the high-speed launch culture layer
+[Development disclosure and release status](../SUBMISSION.md)
 
-## Why now
+## Usage and demand
 
-Token launches have become mainstream, but the creator economics are still immature. Most platforms reward the launch venue or the first trade cycle, while the builder still needs to fund development, marketing, liquidity, rewards, and community growth after graduation.
+Our cumulative platform milestones are **300+ token launches**, **at least $2.5 million in trading volume** and **over $50,000 in fees generated for projects**.
 
-BasedBid makes post-launch revenue programmable instead of one-time.
+We have **13+ backend API integration agreements**, at different implementation stages. Hooded is using our Openbid SDK in an early integration.
 
-## Technical execution
+These are distinct signals. Agreements are not completed deployments, and project fees are not basedbid's revenue.
 
-Evidence in this repository:
+[Traction](../traction.md) | [Metric definitions](../metrics/README.md)
 
-- `docs/architecture.md` explains the high-level system.
-- `docs/fee-routing.md` explains the Solana lifetime fee model.
-- `docs/FEE_DISTRIBUTION_TECHNICAL.md` documents routing mechanics.
-- `demo/` contains walkthrough and deployment material.
-- OpenBid provides the public SDK surface at https://github.com/basedbid-public/openbid.
+## Why partners use the infrastructure
 
-## Market potential
+Partners can offer launches through Boards or integrate supported capabilities through Openbid instead of rebuilding the contracts, backend and DEX integrations.
 
-The market is large because the fee base is trading volume, not subscription revenue or one-time launch fees. BasedBid can grow through:
+Others could build similar functionality, but replicating and maintaining it across six networks could take months of engineering, integration and testing. Our Uniswap and PancakeSwap hook whitelisting reflects integration work beyond the interface.
 
-- creators launching tokens
-- Board owners bringing distribution
-- KOLs replacing one-time promotions with recurring revenue
-- agencies and incubators creating launch environments for clients
-- API and SDK integrations through OpenBid
+Hooded provides an early SDK-adoption example, not proof of established partner revenue.
 
-## Unit economics
+[Boards](./boards.md) | [Public SDK](https://github.com/basedbid-public/openbid)
 
-BasedBid charges a transparent protocol fee on top of creator-configured fees. The path to $1M ARR requires roughly $200M annualized routed volume at a 0.5% protocol fee, or less volume if premium Board, analytics, and enterprise services are included.
+## Business model
 
-See `docs/UNIT_ECONOMICS.md` for scenarios.
+basedbid earns protocol fees from direct launches and partner launchpads, including ongoing trading activity. Current rates vary by launch type and network and will change for the full release.
 
-## Traction and validation
+We do not publish a platform-revenue total here. The project-fee milestone should not be used as a substitute.
 
-Evidence in this repository:
+[Current fee schedule](https://basedinc.gitbook.io/basedbid/fees)
 
-- `CURRENT_TRACTION.md`
-- `docs/TRACTION_VALIDATION.md`
-- `partnerships/PARTNERSHIP_TRACKER.md`
-- `partnerships/BOARDS_TRACKER.md`
-- `partnerships/LOIs/`
+## Team and execution
 
-The strongest proof point is the MLMX Board path because it validates the Board thesis: distribution partners want recurring infrastructure, not only one-time campaign payments.
+Redrum leads engineering, Michael leads partnerships, Seth leads growth and strategy, and Dante works on the SDK and integration tooling.
 
-## Competitive differentiation
+Our core team has around five years of shared launch-infrastructure experience. We have self-funded basedbid's development for over 15 months.
 
-BasedBid should not claim that no adjacent project has ever explored creator fees. The stronger, more defensible claim is:
+[Team background](../WHY_THIS_TEAM_CAN_WIN.md)
 
-> BasedBid is the only submission package we found that combines live launch infrastructure, Board-owned distribution, programmable multi-recipient fee routing, and an open-source SDK companion.
+## How to review the product
 
-See `docs/COLOSSEUM_COMPETITIVE_RESEARCH.md`.
+At submission, the primary domain hosts the existing mainnet beta. The submitted demo shows the updated full release, still undergoing final testing. Updated contracts may be redeployed before release.
 
-## Judge takeaway
+This repository contains documentation and submission materials, not the complete production implementation. The open-source SDK is maintained separately.
 
-BasedBid is a commercial infrastructure play, not a one-off demo. The product turns token launches into recurring creator revenue systems, and the public repo plus OpenBid SDK give judges a reviewable path despite production code remaining private.
+[Judge review guide](../JUDGING.md) | [Demo materials](../demo/) | [Architecture](./architecture.md) | [Code boundary](./private-code-boundary.md)
