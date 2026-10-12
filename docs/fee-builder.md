@@ -1,44 +1,44 @@
-# Fee Builder
+# Boards
 
-The **Fee Builder** lets projects decide how trading revenue supports their token economy, then change supported routes and allocations as their needs evolve.
+**Boards** let communities, creators and platforms operate branded launch environments using basedbid's infrastructure.
 
-It is part of Pro configuration. Standard quick Flash Token launches do not use the Fee Builder.
+Projects launch through the Board rather than requiring its owner to build and maintain separate launch contracts, backend systems and DEX integrations.
 
-## Where fees can go
+## What a Board provides
 
-- **Creator income and development:** Pay the people building the project.
-- **Treasury and marketing:** Fund operations and growth.
-- **Liquidity:** Allocate revenue to supported liquidity mechanisms.
-- **Buybacks and burns:** Use collected fees to buy the launched token, with burn options where supported.
-- **Holder rewards:** Fund a Rewards Basket.
-- **Custom wallets:** Allocate revenue to selected recipients.
+- Branding and community links.
+- Launch access and publishing permissions.
+- Launch fee packages and partner revenue arrangements.
+- A branded place for projects to launch and users to discover them.
 
-Fee Builder distributions do not require selling the launched token. This avoids token sales to fund those distributions, not ordinary market selling or all price pressure.
+Launch mechanics and supported settings depend on the selected network. A Board is a branded environment on shared infrastructure, not a separate production codebase.
 
-## Rewards Basket
+## How Board owners earn
 
-Creators choose supported assets, their allocations and holder eligibility and payout settings.
+Board owners can earn through configured listing fees and trading-fee arrangements. Launch-specific graduation fees may also apply.
 
-A basket can contain supported tokens, tokenized stocks and ETFs. Payouts can rotate through individual assets or distribute across the basket simultaneously.
+Revenue depends on actual launches, trading activity and the applicable fee configuration. It is not a guaranteed payout.
 
-Available assets and settings vary by network.
+[View the current fee schedule](https://basedinc.gitbook.io/basedbid/fees). These are existing platform rates and will change for the full release.
 
-## Updates after launch
+## Relationship to project economics
 
-Authorised users can change supported fee routes, receiving wallets and basket settings without redeploying the token.
+Projects using supported Pro settings can configure trading-revenue routes through the [Fee Builder](./fee-builder.md), including holder rewards through a Rewards Basket.
 
-For example, a project could initially allocate revenue to development, then adjust the allocation toward holder rewards as its needs change. This is an illustrative configuration, not an earnings forecast.
+Board-owner revenue and project allocations are distinct parts of the applicable configuration.
 
-## Development status
+## Integration into another product
 
-The Fee Builder and EVM Rewards Basket existed before **14 September 2026**. Competition-period work included the **Solana Rewards Basket** and a **redesign of the Solana Fee Builder**.
+For deeper integration, partners can use **Openbid, API, SDK and ABI** to offer supported basedbid capabilities inside an existing application.
 
-The submitted demo shows the updated full release. At submission, the primary domain still hosts the existing mainnet beta; updated contracts are being tested and may be redeployed.
+Others could build similar functionality, but doing so requires engineering, DEX integration, testing and ongoing maintenance. Using basedbid lets partners build on existing infrastructure instead.
+
+[Hooded](https://hooded.club/feed) is using our Openbid SDK, although its integration is early. This is an SDK-adoption example, not a claim that Hooded operates a mature Board or generates partner revenue.
 
 ## Further reading
 
+- [Public Openbid SDK](https://github.com/basedbid-public/openbid)
 - [How it works](../HOWITWORKS.md)
-- [Architecture](./architecture.md)
-- [Boards](./boards.md)
-- [Submission and development disclosure](../SUBMISSION.md)
-- [Current fee schedule](https://basedinc.gitbook.io/basedbid/fees): Existing platform rates; the full-release rates will change.
+- [Traction and partner adoption](../traction.md)
+- [Submission and prior-work disclosure](../SUBMISSION.md)
+- [Public and private code boundary](./private-code-boundary.md)
