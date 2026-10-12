@@ -6,7 +6,7 @@
 
 Simple launches. Trading fees that support the project long after launch.
 
-basedbid powers token launches and branded launchpads across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**.
+basedbid powers token launches and branded launchpads on mainnet across **Solana, Ethereum, Base, BNB Chain, Arc and Robinhood Chain**, with **300+ launches and at least $2.5 million in trading volume**.
 
 Our **Fee Builder** lets projects choose how trading revenue funds growth, liquidity, buybacks, treasury and holder rewards. **Rewards Baskets** pay eligible holders in supported tokens, tokenized stocks and ETFs.
 
@@ -42,11 +42,15 @@ We serve projects launching tokens and platforms building launchpads. Partners e
 
 Our mainnet beta has supported:
 
-- **Hundreds of token launches.**
-- **Millions in tracked onchain trading volume.**
-- **Tens of thousands of dollars in fees generated for projects.**
+- **300+ token launches.**
+- **At least $2.5 million in trading volume.**
+- **Over $50,000 in fees generated for projects.**
+
+These are cumulative platform figures, not competition-only activity. Project fees are not basedbid's own revenue.
 
 We also have **13+ backend API integration agreements**, with partners at different stages of implementation.
+
+[Hooded](https://hooded.club/feed) is using our Openbid SDK, although its integration is still early.
 
 [Explore traction and integrations](../traction.md)
 
@@ -58,9 +62,17 @@ Our core team has around five years of shared experience building crypto launch 
 
 [Meet the team](../WHY_THIS_TEAM_CAN_WIN.md)
 
-## Full release
+## Prior work and competition-period development
 
-**As of 10 October 2026**, the full-release update is in final testing before moving to the primary domain. It covers all six networks, with a redesigned interface, easier configuration, expanded Rewards Baskets and improved partner integration tools.
+basedbid and its mainnet beta existed before **14 September 2026**. The **Fee Builder and EVM Rewards Basket** were already built.
+
+During this competition, we built the **Solana Rewards Basket**, redesigned the **Solana Fee Builder** and developed **Pre-Launch**.
+
+## Full release and access
+
+**At submission on 12 October 2026**, [based.bid](https://www.based.bid/) hosts the existing mainnet beta. The submitted demo shows the updated full release, which is still undergoing final testing and is not yet publicly accessible.
+
+The full release covers all six networks and will replace the beta on the same domain once ready. Updated contracts may be redeployed before release.
 
 We want trading activity to help sustain projects, not just fund a one-off launch. Programmable economies give creators the tools to put that revenue to work as their needs change.
 
