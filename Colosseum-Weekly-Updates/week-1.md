@@ -1,60 +1,19 @@
-# Week 1 Progress Update
-*April 7-13, 2026*
+# Week 1 | Simpler token launches on Solana
 
-## Development Milestones
+[Watch the Week 1 update](https://youtu.be/7_Mp7djaprk)
 
-### Fee Builder Platform
-- Programmable Treasury feature entering final testing phase
-- Advanced fee routing system ready for production deployment
-- Enhanced UI/UX improvements completed on testnet
+## Progress shown
 
-### AI Integration Framework
-- SDK development progressing for AI agent platform access
-- Expanding programmatic access to pools, boards, and token creation
-- Cross-platform integration capabilities in development
+This update focuses on making the first steps of a token launch easier.
 
-### Infrastructure Expansion
-- Multi-DEX integration progress with major Solana protocols
-- Enhanced liquidity routing and aggregation features
-- Platform scalability improvements implemented
+The straightforward launch flow lets creators enter token details and see the preview update. Pro provides deeper configuration for those who need it.
 
----
+The video also previews work underway on tokenized-stock capabilities for Solana, including supported trading pairs, holder rewards and treasury allocations.
 
-## Ecosystem Growth
+## Product lesson
 
-### Developer Interest
-- Strong pipeline of projects preparing to launch
-- Active developer community engagement across social channels
-- Multiple integration requests from third-party platforms
+Advanced features should not make the first steps complicated. Creators should be able to start simply and access more configuration when needed.
 
-### Strategic Partnerships
-- Key partnerships advancing for Solana ecosystem expansion
-- White-label board solution generating enterprise interest
-- Cross-platform SDK integrations in progress
+This is a progress record, not a claim that every previewed feature was publicly released that week.
 
-### Community Engagement
-- Daily social media presence maintained with technical updates
-- Growing interest from DeFi builders and token creators
-- Active testnet usage from early adopters
-
----
-
-## Technical Achievements
-- **Multi-chain infrastructure** supporting 5+ blockchain networks
-- **Programmable fee distribution** system architecture completed
-- **Real-time trading fee capture** without LP drainage
-- **Cross-DEX compatibility** ensuring maximum liquidity access
-
----
-
-## Looking Ahead
-Focus areas for continued development include platform stability, partnership execution, and expanding the developer toolkit for sustainable token economics.
-
----
-
-*Building the future of sustainable token launch infrastructure.*
-
-# VIDEO LINK
-
-https://www.youtube.com/watch?v=r-X5t3LNw10&list=PLuLBTvqe5SLmKyYrVtFvgsUMNtcIXBIfK
-
+[Development disclosure](../SUBMISSION.md) | [All updates](./README.md)
